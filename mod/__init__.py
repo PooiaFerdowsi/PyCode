@@ -1,1 +1,1 @@
-from .mod import *
+from .server import *
