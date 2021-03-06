@@ -3,6 +3,7 @@ import mod
 from typing import (
   Any
 )
+import http.server
 """ Create Server """
 mod.start().serve_forever() # method caching 
 
@@ -31,4 +32,10 @@ def function(*params):
  def function(**kwd):
          return type(kwd) # dict
 
+ class Handler(http.server.BaseHTTPRequestHandler):
+         pass
+         
+ class UsrErr(BaseException):
+         """The UsrErr is normally used in raise"""
+         pass
  
