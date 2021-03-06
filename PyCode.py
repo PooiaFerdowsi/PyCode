@@ -30,3 +30,5 @@ def function(*params):
          
  def function(**kwd):
          return type(kwd) # dict
+
+ 
