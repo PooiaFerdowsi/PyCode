@@ -25,3 +25,8 @@ def function(func,
   
 function(lambda :"HelloWorld")
   
+def function(*params):
+         return type(params) # tuple
+         
+ def function(**kwd):
+         return type(kwd) # dict
