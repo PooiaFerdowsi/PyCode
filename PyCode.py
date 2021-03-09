@@ -47,3 +47,12 @@ def tuple_args(*args):
          
 def dict_args(**args):
          return type(args) # dict
+
+#bad comment        
+#@Overridde
+#bad comment
+#good comment
+raise UsrErr
+# create a new  UsrErr Exception &  The UsrErr Exception is a BaseException child class
+#good comment
+         
