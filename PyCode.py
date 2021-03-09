@@ -39,3 +39,11 @@ def function(*params):
          """The UsrErr is normally used in raise"""
          pass
  
+
+         
+         
+def tuple_args(*args):
+         return type(args) # tuple
+         
+def dict_args(**args):
+         return type(args) # dict
